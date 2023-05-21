@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    transition: 0.5s;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 35%;
+    background: rgb(75, 49, 49);
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin-top: 7px;
+    font-size: 30px;
+}
